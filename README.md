@@ -206,6 +206,7 @@ With your project open in Codespaces:
     1. **Build location**: `dist`
 1. When 
 complete you will see a notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running.
+
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
 1. To view the status of your deployment, find your Static Web App resource in the Azure tab in the VS Code left side bar.
 1. Once deployment is complete, you can view your brand new new publicly accessible application by right clicking on your Static Web App resource and selecting "Browse Site".
