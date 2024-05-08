@@ -60,8 +60,8 @@ const Footer = (props) => {
           gap: "2.5rem",
         }}
       >
-        {email && (
-          <a href={`mailto:${email}`}>
+       {email && (
+          <a href={`mailto:Brian.Musasizi@studentambassadors.com`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
@@ -71,13 +71,14 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
-            <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
-          </a>
+          <a href="https://github.com/musasizibrian" target="_blank" rel="noopener noreferrer">
+          <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
+        </a>
+        
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/${instagram}`}
+            href={`https://www.instagram.com/musasizibrian759`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -86,7 +87,7 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/musasizi-brian`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,13 +100,13 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://twitter.com/MusasiziBrian14`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={`https://www.youtube.com/@musasizibrian9670`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -121,7 +122,7 @@ const Footer = (props) => {
 };
 
 Footer.defaultProps = {
-  name: "",
+  name: "Musasizi Brian Elijah",
 };
 
 Footer.propTypes = {
